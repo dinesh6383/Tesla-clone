@@ -84,6 +84,8 @@ const Guide = styled.div`
     margin: 0px 13px;
     font-weight: 600;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
   }
 
   @media (max-width: 1200px) {
