@@ -4,8 +4,9 @@ import CloseIcon from "@mui/icons-material/Close";
 import { extraInfo } from "./Details";
 
 function Sidebar(props) {
-  function changeIt() {
+  function changeIt(e) {
     props.opposite();
+    e.preventDefault();
   }
   return (
     <Extras
@@ -54,6 +55,8 @@ const Extras = styled.div`
 
     a {
       font-weight: 600;
+      color: black;
+      text-decoration: none;
     }
   }
 `;
