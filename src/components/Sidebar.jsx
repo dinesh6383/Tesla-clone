@@ -17,7 +17,7 @@ function Sidebar(props) {
       {extraInfo.map((info) => {
         return (
           <li>
-            <a>{info}</a>
+            <a href="/">{info}</a>
           </li>
         );
       })}
