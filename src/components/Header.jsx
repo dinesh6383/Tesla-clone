@@ -17,7 +17,7 @@ function Header() {
         <img src="Images/logo.svg" alt="logo"></img>
       </Head>
       <Models>
-        <a href="#">Model 3</a>
+        <a href="/">Model 3</a>
         <a href="#">Model X</a>
         <a href="#">Model Y</a>
         <a href="#">Solar Roof</a>
