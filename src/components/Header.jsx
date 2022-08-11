@@ -14,7 +14,7 @@ function Header() {
   return (
     <Navigator>
       <Head>
-        <img src="Images/logo.svg"></img>
+        <img src="Images/logo.svg" alt="logo"></img>
       </Head>
       <Models>
         <a>Model 3</a>
