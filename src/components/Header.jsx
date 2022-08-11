@@ -18,19 +18,19 @@ function Header() {
       </Head>
       <Models>
         <a href="/">Model 3</a>
-        <a href="#">Model X</a>
-        <a href="#">Model Y</a>
-        <a href="#">Solar Roof</a>
-        <a href="#">Solar Panels</a>
+        <a href="/">Model X</a>
+        <a href="/">Model Y</a>
+        <a href="/">Solar Roof</a>
+        <a href="/">Solar Panels</a>
       </Models>
       <Guide>
-        <a href="#" className="hide">
+        <a href="/" className="hide">
           Shop
         </a>
-        <a href="#" className="hide">
+        <a href="/" className="hide">
           Account
         </a>
-        <a href="#" onClick={change}>
+        <a href="/" onClick={change}>
           Menu
         </a>
       </Guide>
