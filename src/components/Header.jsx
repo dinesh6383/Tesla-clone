@@ -17,16 +17,22 @@ function Header() {
         <img src="Images/logo.svg" alt="logo"></img>
       </Head>
       <Models>
-        <a>Model 3</a>
-        <a>Model X</a>
-        <a>Model Y</a>
-        <a>Solar Roof</a>
-        <a>Solar Panels</a>
+        <a href="#">Model 3</a>
+        <a href="#">Model X</a>
+        <a href="#">Model Y</a>
+        <a href="#">Solar Roof</a>
+        <a href="#">Solar Panels</a>
       </Models>
       <Guide>
-        <a className="hide">Shop</a>
-        <a className="hide">Account</a>
-        <a onClick={change}>Menu</a>
+        <a href="#" className="hide">
+          Shop
+        </a>
+        <a href="#" className="hide">
+          Account
+        </a>
+        <a href="#" onClick={change}>
+          Menu
+        </a>
       </Guide>
       <Sidebar toggle={toggler} opposite={change} />
     </Navigator>
