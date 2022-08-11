@@ -5,10 +5,11 @@ import Sidebar from "./Sidebar";
 function Header() {
   const [toggler, setoggler] = useState(false);
 
-  function change() {
+  function change(e) {
     setoggler((prevValue) => {
       return prevValue ? false : true;
     });
+    e.preventDefault();
   }
 
   return (
